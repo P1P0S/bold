@@ -30,7 +30,49 @@ section.main {
 	width: 50%;
 }
 
+.logo-menu img {
+	max-width: 100%;
+}
+
 .items-menu {
 	width: 50%;
-	text-align: right;
+	display: inline-block;
+	align-self: center;
+}
+
+.items-menu a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.items-menu a:hover {
+	border-bottom: #ffdd33 2px solid;
+}
+
+.items-menu a.contact-btn {
+	background-color: #0f3fd3;
+	padding: 15px;
+	border-radius: 10px;
+}
+.items-menu a.contact-btn:hover {
+	border: 0;
+}
+
+.mockup {
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	padding: 100px;
+}
+
+.mockup h1 {
+	font-size: 50px;
+}
+
+.mockup img {
+	max-width: 100%;
 }
