@@ -48,7 +48,7 @@ section.main {
 	margin: 0 10px;
 }
 
-.items-menu a:hover {
+.items-menu a:hover:nth-child(-n + 3) {
 	border-bottom: #ffdd33 2px solid;
 }
 
@@ -56,9 +56,6 @@ section.main {
 	background-color: #0f3fd3;
 	padding: 15px;
 	border-radius: 10px;
-}
-.items-menu a.contact-btn:hover {
-	border: 0;
 }
 
 .mockup {
