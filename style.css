@@ -161,6 +161,56 @@ section.cta a {
 	color: #0f3fd3;
 }
 
+section.benefits {
+	margin-top: 30px;
+	padding: 50px 0;
+}
+
+.benefits-list {
+	width: 40%;
+}
+
+.benefits-list h1 {
+	color: black;
+	font-size: 40px;
+}
+
+.benefits-list p {
+	color: #7e92ac;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.benefits-list span {
+	display: inline-block;
+	width: calc(100% - 70px);
+}
+
+.benefits-list img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 70px;
+}
+
+.img-benefits {
+	width: 60%;
+}
+
+.img-benefits img {
+	max-width: 100%;
+}
+
+.benefits-list a {
+	padding: 15px 25px;
+	margin-left: 17px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 17px;
+	background-color: #0f3fd3;
+	text-decoration: none;
+	color: #fff;
+}
+
 @media screen and (max-width: 768px) {
 	.differential {
 		flex-wrap: wrap;
@@ -184,5 +234,10 @@ section.cta a {
 		width: 100%;
 		max-width: 100%;
 		max-width: 250px;
+	}
+	.benefits-list,
+	.img-benefits {
+		width: 100%;
+		margin-bottom: 30px;
 	}
 }
