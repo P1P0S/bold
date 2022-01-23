@@ -212,6 +212,79 @@ section.cta a {
 	color: rgb(238, 234, 234);
 }
 
+section.reports {
+	background-color: #fbfcfe;
+	padding: 40px 0;
+}
+
+section.reports h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.container-slider {
+	overflow: hidden;
+	padding: 40px 0;
+}
+
+.container-slider-single {
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.container-slider-single p {
+	margin: 15px 0;
+	font-size: 14px;
+}
+
+.slick-slide {
+	margin-left: 27px;
+}
+
+.slick-list {
+	margin-left: -27px;
+}
+
+.slick-dotted ul {
+	display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.slick-dotted li {
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+	outline: 0;
+}
+
+.slick-dotted li button {
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	border-width: 0;
+	background: #d2d8eb;
+	color: #d2d8eb;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button {
+	background: #255aff;
+	color: #255aff;
+}
+
+.slick-slide:focus {
+	outline: none;
+}
+
 @media screen and (max-width: 768px) {
 	.differential {
 		flex-wrap: wrap;
@@ -240,6 +313,7 @@ section.cta a {
 	.benefits-list p,
 	.benefits img {
 		width: 100%;
+		font-size: 100%;
 	}
 	.benefits .center {
 		flex-direction: column-reverse;
